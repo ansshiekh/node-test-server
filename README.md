@@ -19,7 +19,7 @@ This repo contains task submission files for emumba devops position.
     - kubectl version (If not installed then follow this guide: https://docs.bitnami.com/kubernetes/get-started-kubernetes/)
 * Then follow the following commands::
     - $ minikube start
-    - $ kubectl create -f deployment.yml --save-config
+    - $ kubectl create -f deployment.yaml --save-config
     - $ kubectl expose deployment node-test-deployment --type="LoadBalancer"
     - $ minikube service node-test-deployment 
     - (This should open the node app in the browser.)

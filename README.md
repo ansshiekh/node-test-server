@@ -3,7 +3,7 @@ This repo contains task submission files for emumba devops position.
 
 # To Check Python Script
 * Install dependencies::  
-   -pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 
 * Use the following command to run the script::
@@ -21,4 +21,4 @@ This repo contains task submission files for emumba devops position.
     - $ minikube start
     - $ kubectl create -f deployment.yml --save-config
     - $ kubectl expose deployment node-test-deployment --type="LoadBalancer"
-    - $ minikube service node-test-deployment
+    - $ minikube service node-test-deployment (This should open the node app on browser.)
